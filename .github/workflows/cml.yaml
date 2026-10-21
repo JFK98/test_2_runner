@@ -23,7 +23,7 @@ jobs:
           python train.py
 
       - name: Upload Results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: predicciones
           path: predicciones.png
